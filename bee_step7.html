@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is a website about bees</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/typo.css">
+    <link rel="stylesheet" href="css/reset.css">
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <ul>
+          <div class="lefthome">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="deroulant" href="choose.html">Pollination</a>
+              <ul class="sous">
+                <li><a href="bee_step1.html">Bee's side of the pollination</a></li>
+                <li><a href="flower_step1.html">Flower's side of the pollination</a></li>
+              </ul>
+          </li>
+          </div>
+          <div class="logo">
+          <li><a href="index.html"><img src="images/superbee-logo.svg"></a></li>
+          </div>
+          <div class="righthome">
+          <li><a href="https://thehoneybeeconservancy.org/how-to-save-the-bees/">How can I help bees?</a></li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+<section class="header2">
+  <p>Now you know what happens with SuperBee!<br>
+It’s time to discover the flower's side of the pollination! <br>
+Click on the button down below to know the full story. </p>
+</section>
+
+    <section class="choose-your-player">
+      <img class="beee" src="images/flowerblanc.svg" alt="Bee">
+      <video class="beee" controls width="250">
+
+          <source src="media/flower.webm"
+                  type="video/webm">
+
+          <source src="media/flower.mp4"
+                  type="video/mp4">
+
+          Sorry, your browser doesn't support embedded videos.
+      </video>
+    </section>
+
+    <section class="choose-your-button">
+      <button class="r-button" onclick="window.location.href = 'flower_step1.html';">How do flowers benefit bees?</button>
+      </section>
+
+</html>
